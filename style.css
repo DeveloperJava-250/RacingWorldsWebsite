@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(225, 225, 225 );
+    font-family: Arial;
+
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+
+    height: 100vh;
+    margin: 0;
+}
+
+.Title {
+    font-size: 50px;
+    font-weight: 900;
+    color: black;
+    margin-bottom: 20px
+}
+
+.DownloadButton {
+    font-size: 25px;
+    font-weight: 900;
+    background-color: rgba(200, 205, 200, 1);
+    color: rgb(0, 0, 0);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    transform: scale(0.95); 
+    transition: 330ms ease;
+    padding: 10px;
+    text-decoration: none;
+
+    display: flex;  
+    justify-content: center;
+    align-items: center; 
+    white-space: nowrap;
+    border-radius: 10px;
+    width: 300px; 
+    height: 100px;       
+}
+
+.DownloadButton:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgb(10,10,10); 
+}
+
+.DownloadButton:active {
+    transform: translateY(2px);
+    box-shadow: 0 5px 0 rgb(150,150,160);
+}
